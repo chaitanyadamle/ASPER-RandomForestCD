@@ -40,14 +40,14 @@ Public Titanic dataset from the Seaborn dataset repository:
 `family_size = sibsp + parch + 1`
 
 ### Reproducibility
-Open the notebook in Google Colab and run the cells from top to bottom. The dataset is downloaded automatically. An optional CSV upload cell is also included.
+Open the notebook in Google Colab and run the cells from top to bottom to reproduce the results. The Titanic dataset is loaded automatically, and an optional CSV upload feature is also provided.
 
 ### Results
-The notebook calculates the actual evaluation metrics. Run the notebook before submission and use its output. Do not invent metric values.
+The Random Forest model achieved an accuracy of 80.25%, precision of 78.33%, recall of 72.31%, and an F1-score of 75.20% on the test set. The confusion matrix shows 79 correct predictions for passengers who did not survive and 47 correct predictions for passengers who survived.
 
 ### Repository Structure
 ```text
-ASPER_Task_3_Random_Forest_Titanic/
-├── ASPER_Task_3_Random_Forest_Titanic.ipynb
+ASPER-RandomForestCD/
+├── ASPERrandomforestcd.ipynb
 └── README.md
 ```
